@@ -7,7 +7,7 @@
   },
   "style": {
     "scheme": "css-modules",
-    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
   },
   "images": {
     "scheme": "files",
@@ -41,7 +41,8 @@
           "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
         }
       ],
-      "customFunctions": []
+      "customFunctions": [],
+      "jsBundleThemes": []
     },
     {
       "projectId": "jkU633o1Cz7HrJdwdxhVHk",
@@ -95,7 +96,8 @@
           }
         }
       ],
-      "customFunctions": []
+      "customFunctions": [],
+      "jsBundleThemes": []
     },
     {
       "projectId": "ohDidvG9XsCeFumugENU3J",
@@ -495,7 +497,8 @@
           "componentImportPath": "@plasmicpkgs/antd5/skinny/registerBreadcrumb"
         }
       ],
-      "customFunctions": []
+      "customFunctions": [],
+      "jsBundleThemes": []
     },
     {
       "projectId": "tM5Rf7fgRF2S7R5X1hHCpZ",
@@ -530,6 +533,34 @@
           "cssFilePath": "plasmic/tutorial_app_in_5_minutes/PlasmicPageLayout.module.css",
           "scheme": "blackbox",
           "componentType": "component"
+        },
+        {
+          "id": "8pV4QVVNXvoC",
+          "name": "Button2",
+          "type": "managed",
+          "projectId": "tM5Rf7fgRF2S7R5X1hHCpZ",
+          "renderModuleFilePath": "plasmic/tutorial_app_in_5_minutes/PlasmicButton2.jsx",
+          "importSpec": {
+            "modulePath": "Button2.jsx"
+          },
+          "cssFilePath": "plasmic/tutorial_app_in_5_minutes/PlasmicButton2.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        },
+        {
+          "id": "2D-j5aRx2czA",
+          "name": "NewPage",
+          "type": "managed",
+          "projectId": "tM5Rf7fgRF2S7R5X1hHCpZ",
+          "renderModuleFilePath": "plasmic/tutorial_app_in_5_minutes/PlasmicNewPage.jsx",
+          "importSpec": {
+            "modulePath": "NewPage.jsx"
+          },
+          "cssFilePath": "plasmic/tutorial_app_in_5_minutes/PlasmicNewPage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/new-page"
         }
       ],
       "icons": [
@@ -542,9 +573,60 @@
           "id": "8HXDLh3HrB9o",
           "name": "Icon2Icon",
           "moduleFilePath": "plasmic/tutorial_app_in_5_minutes/icons/PlasmicIcon__Icon2.jsx"
+        },
+        {
+          "id": "vIcwpzHGYbn8",
+          "name": "CheckSvgIcon",
+          "moduleFilePath": "plasmic/tutorial_app_in_5_minutes/icons/PlasmicIcon__CheckSvg.jsx"
+        },
+        {
+          "id": "xYi7NVP1wTtm",
+          "name": "Icon38Icon",
+          "moduleFilePath": "plasmic/tutorial_app_in_5_minutes/icons/PlasmicIcon__Icon38.jsx"
+        },
+        {
+          "id": "RxtJsE9Y31sR",
+          "name": "Group389Icon",
+          "moduleFilePath": "plasmic/tutorial_app_in_5_minutes/icons/PlasmicIcon__Group389.jsx"
+        },
+        {
+          "id": "DsojCG0D2XcY",
+          "name": "GroupIcon",
+          "moduleFilePath": "plasmic/tutorial_app_in_5_minutes/icons/PlasmicIcon__Group.jsx"
+        },
+        {
+          "id": "kqZM5mVB4vv2",
+          "name": "Group2Icon",
+          "moduleFilePath": "plasmic/tutorial_app_in_5_minutes/icons/PlasmicIcon__Group2.jsx"
+        },
+        {
+          "id": "cbp8cnDhxEyh",
+          "name": "Line37Icon",
+          "moduleFilePath": "plasmic/tutorial_app_in_5_minutes/icons/PlasmicIcon__Line37.jsx"
+        },
+        {
+          "id": "puRJPH4ZSVLW",
+          "name": "Line38Icon",
+          "moduleFilePath": "plasmic/tutorial_app_in_5_minutes/icons/PlasmicIcon__Line38.jsx"
+        },
+        {
+          "id": "3L9gRnoZtHH7",
+          "name": "OtherIconFacebookIcon",
+          "moduleFilePath": "plasmic/tutorial_app_in_5_minutes/icons/PlasmicIcon__OtherIconFacebook.jsx"
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "id": "OAS2TAt-6C6m",
+          "name": "image",
+          "filePath": "plasmic/tutorial_app_in_5_minutes/images/image.svg"
+        },
+        {
+          "id": "cvaA91i4_6f3",
+          "name": "Group 121",
+          "filePath": "plasmic/tutorial_app_in_5_minutes/images/group121.svg"
+        }
+      ],
       "indirect": false,
       "globalContextsFilePath": "plasmic/tutorial_app_in_5_minutes/PlasmicGlobalContextsProvider.jsx",
       "splitsProviderFilePath": "",
